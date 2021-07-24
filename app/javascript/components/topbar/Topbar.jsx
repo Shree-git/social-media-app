@@ -35,7 +35,7 @@ export default function Topbar() {
                     </div>
                 </div>
                 <div className="topbarRightAvatar">
-                    shree
+                    Shree
                 </div>
             </div>
         </div>
