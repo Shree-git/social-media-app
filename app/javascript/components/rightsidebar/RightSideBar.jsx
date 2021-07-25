@@ -6,14 +6,14 @@ export default function RightSideBar() {
         <div className="rightsideContainer">
             <div className="rightsideTop">
                 
-                <span className="rightsideTopText">Anand and 3 other friends have birthdays today.</span>
+                <span className="rightsideTopText">Wes and 3 other wovers have birthdays today.</span>
             </div>
             <div className="rightsideCenter">
                 
             </div>
             <div className="rightsideBottom">
                 <span className="onlineText">
-                    Online
+                    Online Wovers
                 </span>
                 <div className="rightsideOnlineFriend">
                     <div className="rightsideOnlineAvatar">
