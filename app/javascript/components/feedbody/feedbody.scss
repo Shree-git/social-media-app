@@ -89,8 +89,8 @@
             border-radius: 5px;
             display: flex;
             flex-direction: column;
-            height: 500px;
-            padding: 10px 10px 10px 20px;
+            // height: 400px;
+            padding: 20px 10px 10px 20px;
             .feedPostTop{
                 display: flex;
                 align-items: center;
@@ -113,21 +113,35 @@
             .feedPostCenter{
                 .feedPostCenterPic{
                     margin: 20px 20px 20px 0px;
-                    width: 94%;
+                    width: 98%;
                     max-height: 380px;
                     object-fit: cover;
                 }
             }
             .feedPostBottom{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
                 .feedPostBottomLeft{
-
+                    display: flex;
+                    align-items: center;
+                    .feedPostFavoriteIcon{
+                        font-size: 28px;
+                        margin-right: 7px;
+                        cursor: pointer;
+                    }
                     .feedPostLikes{
-
+                        font-size: 18px;
+                        font-weight: 400;
                     }
                 }
                 .feedPostBottomRight{
+                    margin-right: 15px;
                     .feedPostComments{
-
+                        font-size: 18px;
+                        font-weight: 400;
+                        border-bottom: 1px dashed rgb(108, 31, 231);
+                        cursor: pointer;
                     }
                 }
             }

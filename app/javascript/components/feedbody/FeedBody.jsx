@@ -1,6 +1,6 @@
 import React from 'react'
 import './feedbody.scss'
-import { Photo, Theaters, Label, EmojiEmotions } from '@material-ui/icons'
+import { Photo, Theaters, Label, EmojiEmotions, Favorite } from '@material-ui/icons'
 import { Button } from '@material-ui/core'
 
 export default function FeedBody() {
@@ -62,7 +62,7 @@ export default function FeedBody() {
                     </div>
                     <div className="feedPostBottom">
                         <div className="feedPostBottomLeft">
-
+                            <Favorite htmlColor="red" className="feedPostFavoriteIcon" />
                             <span className="feedPostLikes">
                                 3 people like this
                             </span>
@@ -75,9 +75,9 @@ export default function FeedBody() {
                     </div>
                 </div>
             </div>
-            <div className="feedBottom">
+            {/* <div className="feedBottom">
                 feedbottom
-            </div>
+            </div> */}
         </div>
     )
 }

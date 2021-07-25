@@ -19,11 +19,11 @@ export default function RightSideBar() {
                 <div className="rightsideOnlineFriend">
                     <div className="rightsideOnlineAvatar">
                     
-                        <img src="app/assets/images/person1.jpeg" className="rightsideOnlinePic" />
+                        <img src="https://lh3.googleusercontent.com/a-/AOh14Gi_spsir9Oja6c_R1W8FtE0vCSaLtVH-87g3e1k?height=180&width=180" alt="" className="rightsideOnlinePic" />
                         <div className="rightsideOnlineStatus">
                         </div>
                     </div>
-                    <div className="rightSideOnlineUsername">Anthony Panozzo</div>
+                    <div className="rightsideOnlineUsername">Anthony Panozzo</div>
                 </div>
             </div>
         </div>

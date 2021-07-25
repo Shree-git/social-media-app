@@ -31,6 +31,7 @@
             .rightsideOnlineAvatar{
                 display: flex;
                 position: relative;
+                margin-right: 10px;
                 .rightsideOnlinePic{
                     width: 30px;
                     height: 30px;
@@ -38,17 +39,18 @@
                     object-fit: cover;
                 }
                 .rightsideOnlineStatus{
-                    // position: absolute;
+                    position: absolute;
                     width: 10px;
                     height: 10px;
                     background-color: limegreen;
+                    border: 1px solid white;
                     border-radius: 50%;
+                    left: 21px;
                 }
             }
             .rightsideOnlineUsername{
-                font-size: 15px;
+                font-size: 18px;
                 font-weight: 500;
-                color: white;
             }
         }
     }
