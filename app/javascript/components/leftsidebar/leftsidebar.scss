@@ -1,7 +1,9 @@
-.leftContainer{
+.leftsideContainer{
     flex: 2.5;
-    color: white;
-    border-right: 0.5px solid white;
+    color: black;
+    border-right: 0.5px solid black;
+    position: sticky;
+    top: 0;
     .leftTop{
         display: flex;
         flex-direction: column;

@@ -7,6 +7,7 @@ export default function Topbar() {
     return (
         <div className="topbarContainer">
             <div className="topbarLeft">
+                <img className="topbarLeftImage" alt="" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/rnwezdilgzu7snh1b0mw" />
                 <span className="topbarLogo">Woven</span>
             </div>
             <div className="topbarCenter">

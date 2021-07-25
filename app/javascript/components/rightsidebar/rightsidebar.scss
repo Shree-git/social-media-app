@@ -1,3 +1,55 @@
-.rightContainer{
+.rightsideContainer{
     flex: 3;
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    .rightsideTop{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        .rightsideTopIcon{
+            font-size: 40px;
+        }
+        .rightsideTopText{
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+
+    .rightsideCenter{
+        margin-bottom: 10px;
+    }
+
+    .rightsideBottom{
+        .onlineText{
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .rightsideOnlineFriend{
+            display: flex;
+            align-items: center;
+            .rightsideOnlineAvatar{
+                display: flex;
+                position: relative;
+                .rightsideOnlinePic{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                .rightsideOnlineStatus{
+                    // position: absolute;
+                    width: 10px;
+                    height: 10px;
+                    background-color: limegreen;
+                    border-radius: 50%;
+                }
+            }
+            .rightsideOnlineUsername{
+                font-size: 15px;
+                font-weight: 500;
+                color: white;
+            }
+        }
+    }
 }

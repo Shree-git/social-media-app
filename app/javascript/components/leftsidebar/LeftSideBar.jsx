@@ -4,7 +4,7 @@ import { People, Description, Event } from '@material-ui/icons'
 
 export default function LeftSideBar() {
     return (
-        <div className="leftContainer">
+        <div className="leftsideContainer">
             <div className="leftTop">
                 <div className="leftItem">
                     <People className="leftIcon" />

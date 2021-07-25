@@ -1,13 +1,13 @@
-.feedContainer{
+.feedbodyContainer{
     flex: 5.5;
-
+    display: flex;
+    flex-direction: column;
     .feedTop{
-        width: 100%;
         margin: 20px 30px;
         .feedShareCard{
-            background-color: #6c1fe7;
-            -webkit-box-shadow: 3px 4px 5px 0px rgba(115,33,247,0.7); 
-            box-shadow: 3px 4px 5px 0px rgba(115,33,247,0.7);
+            background-color: white;
+            -webkit-box-shadow: 3px 3px 16px 4px rgba(193,189,186,0.86); 
+            box-shadow: 3px 3px 16px 4px rgba(193,189,186,0.86);
             border-radius: 5px;
             height: 200px;
             width: 100%;
@@ -17,11 +17,11 @@
                 padding: 15px;
                 margin: 5px;
                 .feedShareProfilePic{
-                    background-color: black;
                     height: 60px;
                     width: 60px;
                     border-radius: 50%;
                     margin-right: 10px;
+                    object-fit: cover;
                 }
                 .feedShareInputDiv{
                     border-radius: 50px;
@@ -37,12 +37,12 @@
                         width: 95%;
                         height: 40px;
                         font-size: 20px;
-                        color: white;
-                        background-color: #6c1fe7;
+                        color: black;
+                        background-color: white;
 
                     }
                     .feedShareInput::placeholder{
-                        color: rgb(214, 214, 214);
+                        color: rgba(95, 95, 95, 0.479);
                     }
                     .feedShareInput:focus{
                         outline: none;
@@ -58,7 +58,7 @@
                 align-items: center;
                 justify-content: space-around;
                 margin-top: 15px;
-                color: white;
+                color: black;
                 .feedShareBottomItem{
                     display: flex;
                     align-items: center;
@@ -81,7 +81,57 @@
     }
 
     .feedCenter{
+        margin: 20px 30px;
+        .feedPost{
+            background-color: white;
+            -webkit-box-shadow: 3px 3px 16px 4px rgba(193,189,186,0.86); 
+            box-shadow: 3px 3px 16px 4px rgba(193,189,186,0.86);
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+            padding: 10px 10px 10px 20px;
+            .feedPostTop{
+                display: flex;
+                align-items: center;
+                .feedPostPic{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                    object-fit: cover;
+                }
+                .feedPostUsername{
+                    margin-right: 10px;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                .feedPostTimeago{
+                    font-weight: 300;
+                }
+            }
+            .feedPostCenter{
+                .feedPostCenterPic{
+                    margin: 20px 20px 20px 0px;
+                    width: 94%;
+                    max-height: 380px;
+                    object-fit: cover;
+                }
+            }
+            .feedPostBottom{
+                .feedPostBottomLeft{
 
+                    .feedPostLikes{
+
+                    }
+                }
+                .feedPostBottomRight{
+                    .feedPostComments{
+
+                    }
+                }
+            }
+        }
     }
 
     .feedBottom{

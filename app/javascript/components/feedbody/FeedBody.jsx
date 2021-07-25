@@ -5,13 +5,11 @@ import { Button } from '@material-ui/core'
 
 export default function FeedBody() {
     return (
-        <div className="feedContainer">
+        <div className="feedbodyContainer">
             <div className="feedTop">
                 <div className="feedShareCard">
                     <div className="feedShareCardTop">
-                        <div className="feedShareProfilePic">
-
-                        </div>
+                        <img className="feedShareProfilePic" alt="" src="https://lh3.googleusercontent.com/a-/AOh14GiZymR5820okEQXhDuS7RKQWsjAZj_4OdTudtOocA?height=180&width=180" />
                         <div className="feedShareInputDiv">
                             <input type="text" placeholder="What's on your mind today?" className="feedShareInput" />
                         </div>
@@ -37,7 +35,7 @@ export default function FeedBody() {
                             </div>
                         </div>
                         <div className="feedShareBottomItem">
-                            <EmojiEmotions htmlColor="yellow" className="feedShareBottomIcon" />
+                            <EmojiEmotions htmlColor="goldenrod" className="feedShareBottomIcon" />
                             <div className="feedShareBottomText">
                                 Feeling
                             </div>
@@ -51,9 +49,7 @@ export default function FeedBody() {
             <div className="feedCenter">
                 <div className="feedPost">
                     <div className="feedPostTop">
-                        <div className="feedPostPic">
-
-                        </div>
+                        <img className="feedPostPic" alt="" src="https://www.valpo.edu/university-programming-council/files/2019/05/17098033_1343225165737748_7888563682922187930_o-Shreedhar-Pandey.jpg" />
                         <span className="feedPostUsername">
                             Shree Pandey
                         </span>
@@ -62,17 +58,17 @@ export default function FeedBody() {
                         </span>
                     </div>
                     <div className="feedPostCenter">
-                         
+                        <img className="feedPostCenterPic" alt="" src="https://uploads-ssl.webflow.com/5f53d096e630c342b720e573/5f6071021a8bf12cee176245_technical-hiring-process.png" />
                     </div>
                     <div className="feedPostBottom">
                         <div className="feedPostBottomLeft">
 
-                            <span className="feedPostLike">
+                            <span className="feedPostLikes">
                                 3 people like this
                             </span>
                         </div>
-                        <div className="feedPostBottomRigth">   
-                            <span className="feedPostLike">
+                        <div className="feedPostBottomRight">   
+                            <span className="feedPostComments">
                                 2 comments
                             </span>
                         </div>
@@ -80,7 +76,7 @@ export default function FeedBody() {
                 </div>
             </div>
             <div className="feedBottom">
-
+                feedbottom
             </div>
         </div>
     )

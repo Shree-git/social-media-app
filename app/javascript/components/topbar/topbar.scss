@@ -4,16 +4,29 @@
     background-color: rgb(108, 31, 231);
     display: flex;
     align-items: center;
-
+    position: sticky;
+    top: 0;
+    z-index: 100;
     .topbarLeft{
         flex: 3;
-        text-align: center;
+        // text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .topbarLeftImage{
+            width: 30px;
+            width: 30px;
+            // color: white !important;  
+            // filter: grayscale(100%);
+            filter: invert(100%);
+        }
 
         .topbarLogo{
             color: white;
             font-weight: 500;
             font-size: 25px; 
-            cursor: pointer 
+            cursor: pointer;
+            margin-left: 10px;
         }
     }
     
