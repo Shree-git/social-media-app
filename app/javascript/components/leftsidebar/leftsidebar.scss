@@ -1,3 +1,30 @@
 .leftContainer{
     flex: 2.5;
+    color: white;
+    border-right: 0.5px solid white;
+    .leftTop{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 20px;
+        .leftItem{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 10px;
+            margin-bottom: 10px;
+            .leftIcon{
+                margin-right: 12px;
+                font-weight: 500;
+            }
+            .leftText{
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .leftBottom{
+
+    }
 }

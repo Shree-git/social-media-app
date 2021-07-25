@@ -1,3 +1,91 @@
 .feedContainer{
     flex: 5.5;
+
+    .feedTop{
+        width: 100%;
+        margin: 20px 30px;
+        .feedShareCard{
+            background-color: #6c1fe7;
+            -webkit-box-shadow: 3px 4px 5px 0px rgba(115,33,247,0.7); 
+            box-shadow: 3px 4px 5px 0px rgba(115,33,247,0.7);
+            border-radius: 5px;
+            height: 200px;
+            width: 100%;
+            .feedShareCardTop{
+                display: flex;
+                align-items: center;
+                padding: 15px;
+                margin: 5px;
+                .feedShareProfilePic{
+                    background-color: black;
+                    height: 60px;
+                    width: 60px;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                }
+                .feedShareInputDiv{
+                    border-radius: 50px;
+                    // background-color: #6c1fe7;
+                    width: 86%;
+                    height: 45px;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 5px;
+                    .feedShareInput{
+                        border: none;
+                        margin-left: 13px;
+                        width: 95%;
+                        height: 40px;
+                        font-size: 20px;
+                        color: white;
+                        background-color: #6c1fe7;
+
+                    }
+                    .feedShareInput::placeholder{
+                        color: rgb(214, 214, 214);
+                    }
+                    .feedShareInput:focus{
+                        outline: none;
+                    }
+                }
+            }
+            hr{
+                width: 90%;
+                margin: auto
+            }
+            .feedShareCardBottom{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 15px;
+                color: white;
+                .feedShareBottomItem{
+                    display: flex;
+                    align-items: center;
+                    margin: 10px;
+                    .feedShareBottomIcon{
+                        margin-right: 5px;
+                        font-size: 35px;
+                    }
+                    .feedShareBottomText{
+                        font-size: 20px;
+                    }
+                }
+                .feedShareButton{
+                    background-color: green;
+                    color: white;
+                    height: 70%
+                }
+            }
+        }
+    }
+
+    .feedCenter{
+
+    }
+
+    .feedBottom{
+
+    }
 }
+
