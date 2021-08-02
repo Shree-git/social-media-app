@@ -5,6 +5,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Home from '../pages/home/Home'
+import Profile from '../pages/home/Profile'
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(

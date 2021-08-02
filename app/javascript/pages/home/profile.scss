@@ -1,0 +1,14 @@
+.profileContainer{
+    
+    .profileBody{
+        display: flex;
+        .profileBodyCenter{
+            display: flex;
+            flex-direction: column;
+            .profileBodyCenterBottom{
+                display: flex;
+                
+            }
+        }
+    }
+}
